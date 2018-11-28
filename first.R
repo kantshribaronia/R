@@ -4,10 +4,10 @@ library(DBI)
 library(shiny)
 conn <- dbConnect(
   drv = RMySQL::MySQL(),
-  dbname = "kartikeya2018",
-  host = "kartikeya.c3zyaooyl3ox.us-east-2.rds.amazonaws.com",
-  username = "kartikeya2018",
-  password = "kartikeya")
+  dbname = "k*********",
+  host = "k**********.us-east-2.rds.amazonaws.com",
+  username = "k******",
+  password = "**********")
 
 input<-list();
 input$LenderName = 'Gaurav Jalan';
