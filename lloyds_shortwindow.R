@@ -25,11 +25,11 @@ site1%>%html_node(".pid-287-time")%>%html_text()->time
 
 ##### forming connection ######
 cn <- dbConnect(drv = RMySQL::MySQL(), 
-                username = "investinglloyds", 
-                password = "lloyds123", 
-                host     = "lloyds.cc09z4epkjam.us-east-2.rds.amazonaws.com", 
+                username = "i*******", 
+                password = "***********", 
+                host     = "*******.us-east-2.rds.amazonaws.com", 
                 port     = 3306, 
-                dbname   = "investinglloyds")
+                dbname   = "**********")
 
 
 
