@@ -8,11 +8,11 @@ library(dplyr)
 
 ##### forming connection ######
 cn <- dbConnect(drv = RMySQL::MySQL(), 
-                username = "investinglloyds", 
-                password = "lloyds123", 
-                host     = "lloyds.cc09z4epkjam.us-east-2.rds.amazonaws.com", 
+                username = "**********", 
+                password = "*******", 
+                host     = "*********us-east-2.rds.amazonaws.com", 
                 port     = 3306, 
-                dbname   = "investinglloyds")
+                dbname   = "**********")
 
 
 
